@@ -6,19 +6,18 @@ int main(void)
 {
   
 	 OLED_Init();
-   OLED_ShowChar(2,1,'B');//Êä³öÒ»¸ö×Ö·û¡
-  OLED_ShowString(1,1,"abcd");//Êä³öÒ»¸ö×Ö·û´®
-  OLED_ShowNum(1,6,1882,4);//Êı×Ö
+   OLED_ShowChar(2,1,'B');//è¾“å‡ºä¸€ä¸ªå­—ç¬¦ï¿½
+  OLED_ShowString(1,1,"abcd");//è¾“å‡ºä¸€ä¸ªå­—ç¬¦ä¸²
+  OLED_ShowNum(1,6,1882,4);//æ•°å­—
   Delay_ms(1000);
   OLED_Clear();
   Delay_ms(1000);
-  OLED_ShowChinese(1,1,0);//µç
-  OLED_ShowChinese(1,2,1);//¿Ø
-  OLED_ShowChinese(1,3,2);//¾º
-  OLED_ShowChinese(1,4,3);//Åà
-  OLED_ShowChinese(1,5,4);//Óª
-  OLED_ShowChinese(2,1,5);//Ìï
-  OLED_ShowChinese(2,2,6);//Çç
+  OLED_ShowChinese(1,1,0);//ç”µ
+  OLED_ShowChinese(1,2,1);//æ§
+  OLED_ShowChinese(1,3,2);//ç«
+  OLED_ShowChinese(1,4,3);//åŸ¹
+  OLED_ShowChinese(1,5,4);//è¥
+ 
 	while(1)
 	{
 		
