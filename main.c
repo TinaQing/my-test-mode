@@ -12,16 +12,16 @@ int main(void)
   Delay_ms(1000);
   OLED_Clear();
   Delay_ms(1000);
+ 
+ 
+	while(1)
+	{
+		
   OLED_ShowChinese(1,1,0);//电
   OLED_ShowChinese(1,2,1);//控
   OLED_ShowChinese(1,3,2);//竞
   OLED_ShowChinese(1,4,3);//培
   OLED_ShowChinese(1,5,4);//营
- 
-	while(1)
-	{
-		
-		
 	}
 	
 }
